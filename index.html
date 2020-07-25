@@ -22,6 +22,14 @@
         	#nav_bar {
 
         	}
+
+        	.search_button {
+        		padding-left: 16px;
+        		padding-right: 16px;
+        		font-family: arial, sanf-serif;
+        		font-size: 14px;
+        		margin: 11px 4px 11px;
+        		}
         </style>
     </head>
     <body>
@@ -33,8 +41,8 @@
         	<form  action="https://google.com/search">
             	<input id="search" type="text" name="q">
             	<br>
-            	<input type="submit" value="Google Search">
-            	<input type="submit" value="I'm Felling Lucky">
+            	<button type="submit" value="Google Search" class="search_button">Google Search</button>
+            	<button type="submit" name="btnI" class="search_button">I'm Feeling Lucky</button>
         	</form>
     	</div>
     </body>
