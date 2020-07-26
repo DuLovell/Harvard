@@ -9,6 +9,16 @@
 	margin-bottom: 25px;
 }
 
+#images {
+        color: #4285f4;
+        font-family: roboto-regular, arial;
+        font-size: 16px;
+        
+        position: relative;
+        bottom: 47px;
+        left: 105px;
+}
+
 #search {
 	border: 1px solid #e5e5e5;
 	border-radius: 50px;
