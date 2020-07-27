@@ -19,46 +19,75 @@
 			#i3 {
 				margin-left: 42px;
 			}
-			p {
+			p, label {
 				font-family: roboto-regular, arial;
+			}
+			label {
+				font-size: 13px;
 			}
 			span {
 				display: inline-block;
 				background-color: #f1f1f1;
-				width: 2048px;
+				width: 101%;
 				height: 62px;
 				position: relative;
 				bottom: 10px;
 				right: 8px;
 
 			}
-			img {
+			a {
 				position: relative;
+				outline: none;
+				bottom: 65px;
+			}
+			img {
 				width: 92px;
 				height: 31px;
 				margin: 8px;
+			}
+			#act_block {
+				margin-left: 34px;
+			}
+			#Ad_Search {
+				display: block;
+				color: #d93025; 
+				font-size: 20px;
+				margin: 25px 35px 25px;
+			}
+			#underline {
+				border-bottom: 1.5px solid #ebebeb;
+				position: relative;
+				right: 8px;
+				width: 101%;
+			}
+			#underline, #Ad_Search {
+				position: relative;
 				bottom: 65px;
 			}
+
 			
 		</style>
 	</head>
 	<body>
 		<div>
 			<span></span>
-			<a href="index.html"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></a>
-
-			<p>Find pages with...<p>
-			<form action="https://google.com/search">
-				<label for="i0">all these words:</label>
-				<input type="text" name="as_q" id="i0"><br>
-				<label for="i1">this exact word or phrase:</label>
-				<input type="text" name="as_epq" id="i1"><br>
-				<label for="i2">any of these words:</label>
-				<input type="text" name="as_oq" id="i2"><br>
-				<label for="i3">none of these words:</label>
-				<input type="text" name="as_eq" id="i3"><br>
-				<button type="submit">Advanced Search</button>
-			</form>
+			<a href="index.html" tabindex="-1"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></a>
+			<p id="Ad_Search">Advanced Search</p>
+			<p id="underline" ></p>
+			<div id="act_block">
+				<p>Find pages with...<p>
+				<form action="https://google.com/search">
+					<label for="i0">all these words:</label>
+					<input type="text" name="as_q" id="i0"><br>
+					<label for="i1">this exact word or phrase:</label>
+					<input type="text" name="as_epq" id="i1"><br>
+					<label for="i2">any of these words:</label>
+					<input type="text" name="as_oq" id="i2"><br>
+					<label for="i3">none of these words:</label>
+					<input type="text" name="as_eq" id="i3"><br>
+					<button type="submit">Advanced Search</button>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
