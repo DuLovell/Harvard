@@ -12,7 +12,9 @@
 #nav_bar {
         text-align: right;
 }
-a {
+a {     
+        color: black;
+        margin-left: 10px;
         text-decoration: none;
         font-family: roboto-regular, arial;
         line-height: 24px;
